@@ -6,10 +6,14 @@
         grid-template-rows: 3rem 2rem;
     }
 
+    /*logo and tittle*/
+
     #logotittle{
         grid-row: 1;
         grid-column: 1/span 2;
     }
+
+    /*search area, button search and car*/
 
     #searchandsearchbuttoncar{
         grid-row: 2;
@@ -23,7 +27,6 @@
         width: 11rem;
     }
     
-
     #car{
        grid-column: 3;
        grid-row: 1;

@@ -5,6 +5,28 @@ html,body{
     font-family: sans-serif, serif;
 }
 
+a{
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+  
+a:focus {
+    outline: none !important;
+}
+
+img{
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+  
+img:focus {
+    outline: none !important;
+}
+
 /*header*/
 
 header{
