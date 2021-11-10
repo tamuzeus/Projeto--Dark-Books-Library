@@ -25,6 +25,7 @@
     #search{
         justify-self: center;
         width: 11rem;
+        outline: none;
     }
     
     #car{
@@ -39,5 +40,74 @@
         justify-self: center;
     }
     
+/*menu*/
 
-  }
+.menubuttons{
+    list-style: none;
+    display: none;
+}
+
+#mobilemenu{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1.5rem;
+   
+}
+
+#burguer{
+    height: 2rem;
+    display: block;
+    filter: sepia(100%);
+    transition: 1s;
+}
+
+#burguer:hover{
+    filter: sepia(0);
+}
+
+
+
+
+
+/*article: filter, bookarea, menu numbers */
+
+article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    background-color: rgba(235,235,235,255);
+}
+
+#filter{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 1rem;
+}
+
+#bookarea{
+    grid-row: 2;
+    grid-column: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#menunumbers{
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#listnum{
+    grid-template-columns: repeat(5, 2rem);
+    grid-row-gap: 1rem;
+    justify-content: start;
+    margin-right: 2rem;
+}
+
+.nums:nth-child(5), .nums:nth-child(6){
+    display: none;
+}
+
+
+
+}
