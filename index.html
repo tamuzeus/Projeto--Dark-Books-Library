@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Books</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="shortcut icon" href="css/icon/favicon.png">
+
+</head>
+<body>
+
+    <header>
+         <!--logo and tittle-->
+        <div id="organizetittle">
+            <div id="logotittle">
+            <a href="#"><img src="css/icon/skullbook.png" id="logo"></a>
+            <div id="tittle">Dark Books</div>
+            </div>
+         <!--search and buttons-->
+            <div id="searchandsearchbuttoncar">
+                <input type="search" name="searchbar" id="search" placeholder="Book, Genre or Author...">
+                <img src="css/icon/search.png" id="searchbutton">
+                <img src="css/icon/shoppingcart.png" id="car">
+                <img src="css/icon/diary.png" id="diary">
+            </div>
+        </div>
+
+        <hr>
+         <!--Menu and menu buttons-->
+        <nav>
+            <ul id="menu">
+                <li class="menubuttons">Ofertas do dia</li>
+                <li class="menubuttons">Black Friday</li>
+                <li class="menubuttons">Revenda</li>
+                <li class="menubuttons">Cadastro</li>
+                <li class="menubuttons">Suporte</li>
+            </ul>
+        </nav>
+    </header>
+
+     <!--Img area-->
+     <div id="wallpaper">
+     </div>
+      <!---->
+
+    <!--body-->
+    <article>
+        <div id="areafilter">
+            <div id="filter">
+                <p id="filtertittle">Filter</p>
+                <hr class="hrfilter">
+                <div id="price">
+                    <p class="areaname">Price</p>
+                    <ul class="pricelist">
+                        <li class="priceobjs"><input type="checkbox" name="pricelist1" class="circle">$1 - $15.99</li>
+                        <li class="priceobjs"><input type="checkbox" name="pricelist2" class="circle">$16 - $49.99</li>
+                        <li class="priceobjs"><input type="checkbox" name="pricelist3" class="circle">$50 - $99.99</li>
+                        <li class="priceobjs"><input type="checkbox" name="pricelist4" class="circle">$100 -</li>
+                       <label for="pricelist"></label>
+                    </ul>
+                </div>
+                <hr class="hrfilter">
+                <div id="genre">
+                    <p class="areaname">Genre</p>
+                    <ul class="pricelist">
+                        <li class="priceobjs"><input type="checkbox" name="genrelist1" class="circle">Horror</li>
+                        <li class="priceobjs"><input type="checkbox" name="genrelist2" class="circle">Fantasy</li>
+                        <li class="priceobjs"><input type="checkbox" name="genrelist3" class="circle">Mistery</li>
+                        <li class="priceobjs"><input type="checkbox" name="genrelist4" class="circle">Romance</li>
+                    </ul>
+                </div>
+                <hr class="hrfilter">
+                <input type="button" value="Search" id="bsearch">
+            </div>
+        </div>
+
+        <!--book area-->
+        <div id="bookarea">
+            <div class="darksquare" id="square1">
+                <img src="/css/books/classicfear.webp" alt="" class="book">
+                <div class="tittlebook">
+                    <p>Classic Fear</p>
+                </div>
+                <div class="resume">
+                    <p>H.P Lovecraft </p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+
+            <div class="darksquare" id="square2">
+                <img src="/css/books/aliceinwonderland.jpg" alt="" class="book">
+                <div class="tittlebook">
+                    <p>Alice i. t. Wonderland</p>
+                </div>
+                <div class="resume">
+                    <p>Lewis Carroll
+                    </p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+
+            <div class="darksquare" id="square3">
+                <img src="/css/books/thelordofrings.jpg" alt="" class="book">
+                <div class="tittlebook">
+                    <p>The Lord of the Rings</p>
+                </div>
+                <div class="resume">
+                    <p>J.R.R Tolkien</p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+
+            <div class="darksquare" id="square4">
+                <img src="/css/books/thelittleprince.jpg" alt="" class="book">
+                <div class="tittlebook">
+                    <p>The Little Prince</p>
+                </div>
+                <div class="resume">
+                    <p>Antoine de Saint-Exupéry</p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+
+            <div class="darksquare" id="square5">
+                <img src="/css/books/mythology.jpg" alt="" class="book">
+                <div class="tittlebook">
+                    <p>The Primordial War</p>
+                </div>
+                <div class="resume">
+                    <p>I.R Tamuz
+                    </p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+
+            <div class="darksquare" id="square6">
+                <img src="/css/books/domcasmurro.jpg" alt="" class="book">
+                <div class="tittlebook">
+                    <p>Dom Casmurro</p>
+                </div>
+                <div class="resume">
+                    <p>Machado de Assis</p>
+                </div>
+                <div class="bookprice">
+                    <p class="pbook">$??.??</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu numbers-->
+        <div id="menunumbers">
+            <ul id="listnum">
+                <li class="pass"><</li>
+                <li class="nums">1</li>
+                <li class="nums">2</li>
+                <li class="nums">3</li>
+                <li class="nums">4</li>
+                <li class="nums">...</li>
+                <li class="pass">></li>
+            </ul>
+        </div>
+
+    </article>
+    
+
+
+    <!--footer area-->
+    <div id="footer">
+        <footer>
+            <p>Created by: Igor Tamuz</p>
+    
+            <div id="iconsf">
+                <a href="https://br.linkedin.com/in/igor-tamuz-913b001b8"> <img src="css/icon/linkedin.png" alt=" Linkedin icon - https://www.flaticon.com/br/autores/riajulislam" id="linkedinicon">
+                </a>
+    
+                <a href="https://github.com/Tamuzeus"><img src="css/icon/github.png" alt=" Github icon - https://www.flaticon.com/br/autores/dave-gandy" id="githubicon"></a>
+
+                <a href="https://github.com/Tamuzeus"><img src="css/icon/whatsapp.png" alt="Github icon - https://www.flaticon.com/br/autores/dave-gandy" id="whatsicon"></a>
+
+                <a href="https://github.com/Tamuzeus"><img src="css/icon/gmail.png" alt="Github icon - https://www.flaticon.com/br/autores/dave-gandy" id="gmailicon"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

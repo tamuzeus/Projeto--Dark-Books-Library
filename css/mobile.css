@@ -1,0 +1,40 @@
+@media only screen and (max-width: 670px) {
+    /*header*/
+    #organizetittle{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3rem 2rem;
+    }
+
+    #logotittle{
+        grid-row: 1;
+        grid-column: 1/span 2;
+    }
+
+    #searchandsearchbuttoncar{
+        grid-row: 2;
+        grid-column: 1/span 2;
+        grid-template-columns: 12rem 3rem 3rem 3rem;
+        grid-template-rows: 3rem;
+    }
+
+    #search{
+        justify-self: center;
+        width: 11rem;
+    }
+    
+
+    #car{
+       grid-column: 3;
+       grid-row: 1;
+       justify-self: center;
+    }
+    
+    #diary{
+        grid-column: 4;
+        grid-row: 1;
+        justify-self: center;
+    }
+    
+
+  }

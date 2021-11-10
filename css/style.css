@@ -1,0 +1,334 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, serif;
+}
+
+/*header*/
+
+header{
+    background-color: #373431;
+}
+
+#organizetittle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    justify-content: center;
+}
+
+/*logo and tittle*/
+
+#logotittle{
+    display: grid;
+    grid-template-columns: 4rem 10rem;
+    grid-template-rows: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo{
+    height: 3rem;
+}
+
+#tittle{
+    color: rgb(169, 139, 96);
+    font-size: 2rem;
+    font-family: serif;
+    align-self: center;
+}
+
+
+/*search area, button search and car*/
+
+#searchandsearchbuttoncar{
+    display: grid;
+    grid-template-columns: 16rem 3rem 3rem 3rem;
+}
+
+#search{
+    border-radius: 1rem;
+    border-color: rgb(169, 139, 96);
+    height: 2.4rem;
+    width: 13rem;
+    align-self: center;
+    padding-left: 1rem;
+}
+
+#searchbutton{
+    height: 2rem;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    justify-self: center;
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+
+#searchbutton:hover{
+    filter: sepia(0%);
+}
+
+#car{
+    height: 2rem;
+    cursor: pointer;
+    filter: sepia(80%);
+    align-self: center;
+    justify-self: end;
+    transition: 0.5s;
+}
+
+#car:hover{
+    filter: sepia(0%);
+}
+
+#diary{
+    height: 2rem;
+    cursor: pointer;
+    filter: sepia(100%);
+    align-self: center;
+    justify-self: end;
+    transition: 1s;
+}
+
+#diary:hover{
+   filter: sepia(0);
+}
+
+/*menu*/
+
+hr{
+    border-color: rgb(169, 139, 96);
+}
+
+#menu{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
+    justify-content: center;
+    grid-gap: 1.5rem;
+}
+
+.menubuttons{
+    justify-self: center;
+    align-self: center;
+    color: rgb(169, 139, 96);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.menubuttons:hover{
+   color: rgb(245, 204, 68);
+}
+
+/* img area */
+
+#wallpaper{
+    background-image: url(img/duotone.png);
+    height: 10rem;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: -1rem;
+}
+
+/*article: filter, bookarea, menu numbers */
+
+article{
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: auto 4rem;
+    background-color: rgba(235,235,235,255);
+}
+
+/* filter and filter tittle */
+
+#filter{
+    border-right: solid;
+    border-bottom: solid;
+    border-color: rgb(169, 139, 96);
+    border-width: 0.15rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 3rem 1rem auto 1rem auto 1rem; 
+    background-color: #373431;
+}
+
+
+#filtertittle{
+    text-align: center;
+    color: rgb(169, 139, 96);
+    font-size: 1.5rem;
+    font-family: serif;
+    grid-row: 1;
+    align-self: center;
+}
+
+.hrfilter{
+    width: 100%;
+    border-style: solid;
+}
+
+.areaname{
+    margin-left: 2.6rem;
+    color: rgb(169, 139, 96);
+}
+
+.pricelist{
+    color: rgb(169, 139, 96);
+    list-style: none;
+}
+
+#bsearch{
+    width: 5rem;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    color: #373431;
+    font-weight: bold;
+    background-color: rgb(169, 139, 96);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/*book area*/
+
+#bookarea{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+}
+
+.darksquare{
+    background-color: #373431;
+    padding: 0.7rem;
+    display: grid;
+    grid-template-rows: 10rem 4rem 3rem 1rem;
+}
+
+.book{
+    width: 7rem;
+    align-self: center;
+    justify-self: center;
+    color: rgb(169, 139, 96);
+    cursor: pointer;
+}
+
+.tittlebook{
+    font-family: serif;
+    font-size: 1.3rem;
+    align-self: center;
+    justify-self: center;
+    color: rgb(169, 139, 96);
+    cursor: pointer;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.resume{
+    align-self: center;
+    justify-self: center;
+    color: rgb(169, 139, 96);
+}
+
+.bookprice{
+    align-self: center;
+    justify-self: center;
+    color: rgb(169, 139, 96);
+    cursor: pointer;
+}
+
+/*book layout*/
+
+/*menu numbers*/
+
+#menunumbers{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#listnum{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1rem);
+    justify-content: center;
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.pass, .nums{
+    background-color: #373431;
+    color: rgb(169, 139, 96);
+    overflow: hidden;
+    height: 2rem;
+    width: 2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+/*footer*/
+
+#footer{
+    background: #373431;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer{
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: 20rem;
+    margin: 0%;
+    align-self: center;
+  }
+  
+  footer > p{
+    text-align: center;
+    color: rgb(169, 139, 96);
+    font-size: 1.3rem;
+    font-family: serif;
+  }
+  
+  #iconsf{
+    display: flex;
+    justify-content: center; 
+  }
+  
+  #linkedinicon{
+    width: 2.5rem;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #373431;
+  }
+  
+  #githubicon{
+    width: 2.5rem;
+    background-color: white;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #373431;
+  }
+  
+  #whatsicon{
+    width: 2.5rem;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #373431;
+  }
+
+  #gmailicon{
+    width: 2.5rem;
+    border-radius: 100%;
+    border-style: solid;
+    background-color: white;
+    border-color: #373431;
+  }
